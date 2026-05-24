@@ -1,37 +1,33 @@
-/* Google Fonts */
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 
-/* Basic reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Smooth scrolling */
 html {
     scroll-behavior: smooth;
 }
 
-/* Body */
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #f5f5f5;
     color: #333333;
 }
 
-/* All images responsive */
 img {
     max-width: 100%;
     height: auto;
 }
 
-/* Iframe responsive */
+
 iframe {
     max-width: 100%;
 }
 
-/* --- NAVIGATION --- */
+
 
 table:first-of-type {
     background-color: #1e3a2f;
@@ -57,7 +53,6 @@ table:first-of-type img {
     border-radius: 5px;
 }
 
-/* --- HAMBURGER --- */
 
 #menu-toggle {
     display: none;
@@ -91,7 +86,6 @@ table:first-of-type img {
     transform: translateY(-8px) rotate(-45deg);
 }
 
-/* --- HOME PAGE --- */
 
 #Home {
     background-color: #1e3a2f;
@@ -127,8 +121,6 @@ table:first-of-type img {
     max-width: 80%;
     height: auto;
 }
-
-/* --- ABOUT PAGE --- */
 
 body > table:nth-of-type(2) {
     width: 100%;
@@ -192,7 +184,7 @@ body > table:nth-of-type(2) ul li:hover {
     border-color: #f4d03f;
 }
 
-/* --- CONTACT PAGE --- */
+
 
 body > table:nth-of-type(2) h2 {
     font-size: 1.8rem;
@@ -219,7 +211,7 @@ body > table:nth-of-type(2) iframe {
     height: 160px;
 }
 
-/* --- FOOTER --- */
+
 
 footer {
     background-color: #1e3a2f;
@@ -245,9 +237,7 @@ footer p {
     font-size: 0.9rem;
 }
 
-/* ============================================================
-   DESKTOP — screens wider than 1024px
-============================================================ */
+
 @media (min-width: 1024px) {
 
     .main-image {
@@ -265,9 +255,7 @@ footer p {
     }
 }
 
-/* ============================================================
-   TABLET — screens between 641px and 1023px
-============================================================ */
+
 @media (min-width: 641px) and (max-width: 1023px) {
 
     table, tbody, tr, td {
@@ -314,17 +302,15 @@ footer p {
     }
 }
 
-/* ============================================================
-   MOBILE — screens smaller than 640px
-============================================================ */
+
 @media (max-width: 640px) {
 
-    /* Show hamburger icon */
+  
     .hamburger {
         display: flex;
     }
 
-    /* Hide nav links */
+    
     .nav-links {
         display: none;
         width: 100%;
@@ -333,7 +319,7 @@ footer p {
         padding: 10px 0;
     }
 
-    /* Show nav links when hamburger is clicked */
+    
     #menu-toggle:checked ~ td.nav-links {
         display: block;
     }
@@ -344,7 +330,7 @@ footer p {
         border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     }
 
-    /* Stack everything */
+   
     table, tbody, tr, td {
         display: block;
         width: 100% !important;
@@ -355,7 +341,7 @@ footer p {
         padding: 15px !important;
     }
 
-    /* Keep nav flex */
+    
     table:first-of-type,
     table:first-of-type tbody,
     table:first-of-type tr {
@@ -393,4 +379,7 @@ footer p {
         display: block;
         margin: 8px auto;
     }
+    
 }
+ 
+
