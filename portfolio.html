@@ -5,30 +5,60 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>KM's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-
 
     <table width="100%" cellpadding="10">
         <tr>
             <td width="150">
                 <img src="logo.png" alt="Karabo" width="50" height="60">
             </td>
-           <td align="right">
+
+            <td>
+                <input type="checkbox" id="menu-toggle">
+                <label for="menu-toggle">
+                    <div class="hamburger">
+                        <span></span><span></span><span></span>
+                    </div>
+                </label>
+            </td>
+
+            <td align="right" class="nav-links">
                 <a href="portfolio.html">Home</a>
-            
                 <a href="about.html">About me</a>
-                
                 <a href="contact.html">Contact Me</a>
             </td>
         </tr>
     </table>
 
-
-    <section id="Home">
-        <img src="kb.jpeg" width="50%">
+    <section id="Home" align="center">
+        <table width="100%" cellpadding="20">
+            <tr>
+                <td align="center">
+                    <img src="kb.jpeg" alt="Karabo"  class="main-image">
+                </td>
+            </tr>
+        </table>
+        <p>
+            Final Year Computer Science Student | Java Programmer |Web Developer
+        </p>
     </section>
+
+   
+<footer>
+    <div class="footer-content">
+        <div class="footer-social">
+            <a href="https://twitter.com" target="_blank">Twitter</a>
+            <a href="https://facebook.com" target="_blank">Facebook</a>
+            <a href="https://www.linkedin.com/in/karabo-sekosana-710b85389/" target="_blank">LinkedIn</a>
+        </div>
+        <p> Phone: (+27) 65 626 6452</p>
+        <p> Polokwane, Limpopo, 0699</p>
+        <p>&copy; 2026 Karabo Sekosana</p>
+    </div>
+</footer>
 
 </body>
 
